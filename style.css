@@ -156,3 +156,22 @@ body {
     width: 100%;
     max-width: 400px;
 }
+
+@media (max-width: 600px) {
+    .theme-toggle {
+        position: static !important;
+        display: block;
+        margin: 15px auto 0 auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: none;
+    }
+    .container {
+        margin-top: 15px;
+    }
+    body.dark-mode {
+        background-image: url('4.webp') !important;
+        background-position: cover !important;
+    }
+}
